@@ -6,10 +6,13 @@ import android.os.Bundle;
 public class MainActivity extends AppCompatActivity {
 
 
-    System.out.plintln("aaa")
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        System.out.println("aaa");
         setContentView(R.layout.activity_main);
+
     }
+
 }
